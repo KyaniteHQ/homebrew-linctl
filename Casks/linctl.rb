@@ -4,22 +4,22 @@ cask "linctl" do
 
   on_macos do
     on_intel do
-      sha256 "e1186ffcb9f950016b0bcad28efe76b6f20827ab30338dac8f1d4cd7aa792853"
+      sha256 "15c17fb4b0a5d21971d4a2a76c059dcc33e1a592f56a368edeb4e41c5f2e17ae"
       url "https://github.com/KyaniteHQ/linctl/releases/download/v#{version}/linctl_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "2cac3d01c13ce7fbba419c83304cfcf1f39c80d18b78d9c9ba2133b10dd13ec9"
+      sha256 "47c6a875b6e63172d1797dcf266701614a447976213ba45832107ff903e73037"
       url "https://github.com/KyaniteHQ/linctl/releases/download/v#{version}/linctl_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "c59355b55d05051a9f93ff85a3b41b6ba945ad837dc286cbc8b475d27fe4d10d"
+      sha256 "917c0065ef246c2baaf7710eb4d5b3b788b6109a9529eb90f7d920557838ff38"
       url "https://github.com/KyaniteHQ/linctl/releases/download/v#{version}/linctl_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "44c8529681a0080d2fd6450078a765503b6f410ff971a4da1f1e6a87b3ea66f0"
+      sha256 "22b2112f7c84b4bf66a1a9add96bb20cff2f8a896e7fae86b3063a03c127d22d"
       url "https://github.com/KyaniteHQ/linctl/releases/download/v#{version}/linctl_#{version}_linux_arm64.tar.gz"
     end
   end
